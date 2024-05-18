@@ -108,10 +108,6 @@ export default {
     },
 
     async loadMap() {
-
-      var myApiKey = await fetch("lo/api.key")
-
-      console.log(myApiKey.json)
   
       const loader = new Loader({ apiKey: });
 
